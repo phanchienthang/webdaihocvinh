@@ -1,0 +1,239 @@
+body{
+    padding: 0;
+}
+
+/*------------------header-----------------------------------------------------*/
+.header{
+    width: 100%;
+    position: relative;
+}
+.header_top{
+    width: 100%;
+    position: relative;
+    background-color: #17a2b8;
+    min-height: 87px;
+}
+.header_logo{
+    width: 25%;
+    position: relative;
+}
+.header_logo img{
+   max-width: 125px;
+}
+.header_social{
+    width: 100%;
+    position: relative;
+}
+.header_social a{
+    float: right;
+    background-color: #24313d;
+    color: #fff;
+}
+
+.header_bottom{
+    width: 100%;
+    position: relative;
+    background-color: #007bff;
+    min-height: 50px;
+
+}
+.header_menu{
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+.header_bottom ul {
+    padding-left: 0;
+
+}
+.header_bottom ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header_bottom ul li a{
+    color: #FFF;
+    padding: 12px 12px 12px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p{
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+p .title-top{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+/*=========================================footer===============================================*/
+.footer{
+    width: 100%;
+    position: relative;
+    margin-top: 72px;
+    border-bottom: solid 15px ;
+    background-color: #007bff;
+}
+.footer_logo{
+    padding-left: 40%;
+}
+.footer_copyright{
+    padding: 30px 15px 30px 15px;
+}
+/*==========================================Content===========================================*/
+.home_page{
+    width: 100%;
+    position: relative;
+}
+.home_top{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 60px 25px 90px 25px;
+    margin-top: 35px;
+}
+.heading{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 9px;
+    border-bottom: 2px solid #000;
+}
+.listnews{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.listview .listitem{
+    position: relative;
+    min-height: 216px;
+    clear: both;
+    padding-left: 216px;
+    margin: 0 0 16px 0;
+}
+.listview .listitem:last-child{
+    border-bottom: none;
+}
+.listview .listitem .title {
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.listview .listitem .thumb {
+    max-height: 200px;
+    overflow: hidden;
+    display: block;
+    border-radius: 3px;
+    width: 200px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.listview .listitem .thumb img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+.listview .listitem .desc {
+    max-height: 150px;
+    overflow: hidden;
+    text-align: justify;
+    clear: right;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform:initial;
+}
+@media screen and (max-width:1023px) {
+    .listview .listitem {
+        padding-left: 0;
+        min-height: initial
+    }
+    .listview .listitem .thumb {
+        width: 30%;
+        min-width: 100px;
+        max-height: 100px;
+        position: relative;
+        float: left
+    }
+    .listview .listitem .desc {
+        display: inherit
+    }
+}
+
+@media screen and (max-width:639px) {
+    .listview .thumb img {
+        height: auto;
+        max-width: 100%
+    }
+}
+
+@media screen and (max-width:479px) {
+    .listview .listitem {
+        padding-left: 100px;
+        min-height: 100px
+    }
+    .listview .listitem .thumb {
+        float: none;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin: 0;
+        min-width: initial
+    }
+    .listview .listitem .title {
+        font-size: 18px;
+        line-height: 26px;
+        float: none
+    }
+    .listview .listitem {
+        font-size: 12px;
+        line-height: 16px;
+        clear: both
+    }
+    .listview .listitem .desc{
+        display: none
+    }
+}
+
+@media screen and (max-width:319px) {
+    .listview .listitem {
+        padding-left: 0
+    }
+    .listview .listitem .title {
+        float: none;
+        width: 100%;
+        font-weight: bold
+    }
+    .listview .listitem .desc {
+        width: 100%;
+        float: none;
+        overflow: hidden
+    }
+    .listview .listitem .thumb {
+        clear: both;
+        position: relative;
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 10px 0;
+        max-height: 150px
+    }
+}
+li{
+    list-style-type: none;
+}
+.context{
+    padding-left: 10px;
+}
+/*================================================Liên hệ================================*/
